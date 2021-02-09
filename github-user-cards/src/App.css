@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.userCard {
+  background-color: gray;
+  color: black;
+  width: 400px;
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.userInfo {
+  font-size: 24px;
+}
+
+.userImg {
+  height: 150px;
+  width: 150px;
+}
