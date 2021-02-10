@@ -23,9 +23,11 @@ class App extends React.Component {
 
   render() {
     return(
-      <div>
-        <h1>GitHub People</h1>
-        <UserCard />
+      <div className='container'>
+        <div className='header'>
+          <h1>GitHub People</h1>
+        </div>
+        <UserCard userData={this.state}/>
       </div>
     )
   }
